@@ -1,7 +1,7 @@
 int ranges = 100;
 
 void setup() {
-  size (500,windowWidth);
+  fullscreen();
   background(0);
 }
 
