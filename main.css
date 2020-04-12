@@ -1,0 +1,58 @@
+
+.header {
+  width: 100%;
+  color: #000000;
+  text-align: left;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 900;
+  display: grid;
+  padding-top: 50px;
+  padding-left: 80px;
+  padding-right: : 80px;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+  grid-column-gap: 20px;
+}
+
+.Name{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  font-size: 30px;
+}
+
+.Menu1{
+  grid-column-start: 9;
+  grid-column-end: 10;
+  font-size: 30px;
+}
+
+.Menu2{
+  grid-column-start: 10;
+  grid-column-end: 11;
+  font-size: 30px;
+}
+
+.Menu3{
+  grid-column-start: 11;
+  grid-column-end: 12;
+  font-size: 30px;
+}
+
+.Name:hover {
+  text-decoration: underline;
+}
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 16px;
+}
