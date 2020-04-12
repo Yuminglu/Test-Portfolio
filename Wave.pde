@@ -1,7 +1,7 @@
 int ranges = 100;
 
 void setup() {
-  size(500,1000);
+  size(500,500);
   background(0);
 }
 
