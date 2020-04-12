@@ -1,7 +1,7 @@
 int ranges = 100;
 
 void setup() {
-  size(1000,500);
+  size(screen.width,500);
   background(0);
 }
 
