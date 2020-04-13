@@ -20,6 +20,9 @@ body {
   grid-column-start: 1;
   grid-column-end: 3;
   font-size: 30px;
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
 }
 
 .Menu1{
@@ -43,19 +46,70 @@ body {
 .Name:hover {
   text-decoration: underline;
 }
-/* Page content */
-.content {
-  padding: 16px;
-}
 
-/* The sticky class is added to the header with JS when it reaches its scroll position */
-.sticky {
+
+ ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
-  width: 100%;
+  list-style: outsdie none none;
 }
 
-/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
-.sticky + .content {
-  padding-top: 16px;
+li {
+  float: right;
+  padding-right: 50px;
+  padding-top: 50px;
+  position: -webkit-sticky;
+  position: sticky;
+  height: 50px;
+  top: 0;
+}
+
+.About a {
+  background-color:#101010;
+  box-shadow: 6px 6px 16px #000000, -6px -6px 16px #393838;
+  border-radius: 30px;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+.Codeart a {
+  background-color:#101010;
+  box-shadow: 6px 6px 16px #000000, -6px -6px 16px #393838;
+  border-radius: 30px;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+.Work a {
+  background-color:#101010;
+  box-shadow: 6px 6px 16px #000000, -6px -6px 16px #393838;
+  border-radius: 30px;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+ li a {
+  color: white;
+  text-align: center;
+  font-family: 'Nunito Sans', sans-serif;
+  padding: 14px 20px;
+  text-decoration: none;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+}
+
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
 }
