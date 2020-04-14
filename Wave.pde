@@ -24,5 +24,5 @@ void draw() {
   }
    textSize(32);
    text("word", 15, 30); 
-   fill(#000000);
+   fill(#FFFFFF);
 }
