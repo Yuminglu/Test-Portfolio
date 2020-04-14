@@ -22,4 +22,5 @@ void draw() {
     }
     endShape();
   }
+   text("word", 15, 30); 
 }
