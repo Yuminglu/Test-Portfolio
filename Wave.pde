@@ -23,6 +23,6 @@ void draw() {
     endShape();
   }
    textSize(32);
-   text("word", 15, 30); 
    fill(#FFFFFF);
+   text("word", 15, 30); 
 }
