@@ -24,5 +24,5 @@ void draw() {
   }
    textSize(32);
    fill(#FFFFFF);
-   text("word", 15, 30); 
+   text("UI/UX designer", screen.width*0.8, 30); 
 }
